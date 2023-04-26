@@ -1,0 +1,108 @@
+.body{ 
+position: absolute;
+height: 1277px;
+left: 0%;
+right: 0%;
+background-color: #E9E9E3;
+}
+.wrapper {
+    position: absolute;
+    height: 1037.25px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 120px;      
+}
+.blockmenu{
+    position: absolute;
+    height: 185px;
+    left: 2.57%;
+    right: 57.43%;
+    top: 0px;
+}
+.menu{
+    position: absolute;
+    height: 22px;
+    left: 0%;
+    right: 91.25%;
+    top: 0px;
+
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+/* identical to box height, or 120% */
+
+    color: #6F6F64;
+}
+.text{
+    position: absolute;
+    height: 135px;
+    left: 0%;
+    right: 0.36%;
+    top: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+
+/* or 140% */
+
+    color: #6F6F64;
+}
+.block{
+    position: absolute;
+    height: 1037.25px;
+    left: 2.57%;
+    right: 2.57%;
+    top: 0px;
+}
+.panel{ 
+    position: relative;
+    height: 789.25px;
+    left: 3%;
+    top: 248px;
+}
+.nav{
+    position: inherit;
+    text-align: center;
+    color: #6F6F64;
+    left:-60px;
+    padding-top: 78px;
+    max-width: 620px;
+    display: grid;
+}
+
+.sliding-button {
+    color: #6F6F64;
+    border-radius: 0px;
+    background-color: #E9E9E3;
+    padding: 17px 223px !important;
+    border: 2px solid;
+    margin: 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 900px;
+    cursor: pointer;
+    user-select: none;
+}
+.sliding-button:active {
+    background-color: #6F6F64;
+    color:aliceblue
+    }
+.image{  
+position: absolute;
+height: 1037px;
+left: 50%;
+right: 0%;
+top: calc(50% - 1037px/2 - 0.12px);
+
+background: url(.png);
+border-radius: 0px;
+}

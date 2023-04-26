@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/index.css">
+    
+</head>
+<body>
+    <div class="body">
+        <div class ="wrapper">
+            <div class="blockmenu">
+                <div class="menu">
+                    <h1 class="header">Menu</h1>
+                </div>
+                <div class="text">
+                    <p>We change our menu every season. Here is what we are currently dishing up.</p>
+                </div>
+            </div>
+            <div class="block">
+                <img id="bannerImage" class="image" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/restaurant-menu-digital-display-design-template-5d2609decd85935bedd2a3a6d9a9982e_screen.jpg?ts=1637046477" alt="menu" crossorigin="anonymous">
+                <div class="panel">
+                    <div class="nav">
+                    <button id="btn" onclick="changeImage('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/restaurant-menu-digital-display-design-template-5d2609decd85935bedd2a3a6d9a9982e_screen.jpg?ts=1637046477')" class ="sliding-button">Food Menu</button>
+                    <button id="btn" onclick="changeImage('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/simple-drinks-cocktail-menu-template-design-a302fef5a625002bd22ef50f18c34db6_screen.jpg?ts=1636987214')" class="sliding-button">Drinks Menu</button>
+                    <button id="btn" onclick="changeImage('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/lockdown-takeaway-restaurant-menu-template-design-a12ee102db66fad03569e3a891e682d3_screen.jpg?ts=1637005100')" class="sliding-button">Takaeaway Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    function changeImage(fileName){
+        let img = document.querySelector('#bannerImage');
+        img.setAttribute('src', fileName);
+    }
+    var btn = document.getElementById("btn");
+    btn.addEventListener("click", function() {
+    this.classList.add("active");
+});
+</script>
+</body> 
+</html>       
